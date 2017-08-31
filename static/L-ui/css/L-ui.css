@@ -1453,7 +1453,12 @@
 	z-index: 1030;
 }
 /*logo*/
-.logo{
+.navbar .logo{
+	height: 44px;
+	line-height: 44px;
 	text-decoration: none;
 	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+	font: 16px "微软雅黑";
 }
