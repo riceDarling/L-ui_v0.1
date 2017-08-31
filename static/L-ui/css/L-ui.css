@@ -432,6 +432,9 @@ input[type="search"]::-webkit-search-decoration {
 .navbar-logo{
 	font: 16px "微软雅黑";
 }
+.ml-10{
+	margin-left: 15px;
+}
 .mr-10{
 	margin-right: 10px;
 }
