@@ -1430,3 +1430,30 @@
 		right: 0;
 	}
 }
+
+
+
+/*导航条*/
+.navbar-wrapper{
+	height: 48px;
+}
+.navbar{
+	position: relative;
+	z-index: 1030;
+	background: #fff;
+}
+.navbar-black{
+	background: #222;
+}
+.navbar-fixed-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1030;
+}
+/*logo*/
+.logo{
+	text-decoration: none;
+	display: inline-block;
+}
