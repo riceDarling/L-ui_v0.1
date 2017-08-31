@@ -280,10 +280,10 @@ input[type="search"]::-webkit-search-decoration {
  Explain:		float (浮动)
 */
 
-.fl{
+.f-l{
 	float:left;	
 }
-.fr{
+.f-r{
 	float:right;	
 }
 
