@@ -1,20 +1,15 @@
 ﻿@charset "utf-8";
 
-/* -----------L-ui前端框架-----------------------
-L-ui.reset.css v0.1
-重定义浏览器默认样式
-L-ui.reser CSS file for L-ui
-Copyright L-ui Inc.
-date:2017.08.08
-Created & Modified by riceDarling.
-----------------------------------------------*/
+/* -----------L-ui前端框架-------------
+* H-ui.reset.css 重定义浏览器默认样式
+*/
 
 
 /*1 重定义浏览器默认样式
 	Name:			style_reset
 	Level:			Global
 	Explain:		重定义浏览器默认样式
-	Last Modify:	riceDarling
+	Last Modify:	jackying
 */
 
 * {
@@ -76,7 +71,7 @@ em,
 th,
 var {
 	font-style: normal;
-	font-weight: normal
+	font-weight: 400
 }
 
 input,
@@ -109,7 +104,7 @@ textarea {
 	font-size: 12px;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
 }
 
 body {
@@ -163,6 +158,12 @@ sup {
 	vertical-align: baseline
 }
 
+button,
+input[type="button"],
+input[type="submit"] {
+	line-height: normal !important;
+}
+
 
 /*img*/
 
@@ -184,7 +185,7 @@ img {
 
 /*IE下a:hover 背景闪烁*/
 
-html {
+*html {
 	overflow: -moz-scrollbars-vertical;
 	zoom:expression(function(ele) {
 		ele.style.zoom="1";
@@ -274,18 +275,6 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
 	-webkit-appearance: none
 }
-/*
- Name:			style_fl
- Example:		class="fl|fr"
- Explain:		float (浮动)
-*/
-
-.f-l{
-	float:left;	
-}
-.f-r{
-	float:right;	
-}
 
 
 /*
@@ -307,4 +296,3 @@ input[type="search"]::-webkit-search-decoration {
 .clearfix {
 	zoom: 1
 }
-
