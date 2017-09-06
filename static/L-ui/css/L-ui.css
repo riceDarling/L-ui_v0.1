@@ -9745,7 +9745,7 @@ a.logo:hover {
 .nav-toggle,
 a.nav-toggle {
 	position: absolute;
-	top: 0px;
+	top: 10px;
 	right: 15px;
 	font-size: 20px;
 	color: #999;
