@@ -1453,6 +1453,7 @@ input[type="search"]::-webkit-search-decoration {
 /*2.2 响应式隐藏显示
 	Name:			style_Layout
 	Explain:		左右两栏|左中右三栏|上中下
+	Last Modify:	guojunhui
 */
 
 .visible-xs,
@@ -1706,7 +1707,7 @@ input[type="search"]::-webkit-search-decoration {
 	.sideBox .navbar-nav a:hover {
 		text-decoration: none;
 	}
-	.L-ui-wraper {
+	.Hui-wraper {
 		width: auto;
 		padding: 0 10px
 	}
@@ -1739,9 +1740,10 @@ input[type="search"]::-webkit-search-decoration {
 /*2.3 常用布局
 	Name:			style_Layout
 	Explain:		左右两栏|左中右三栏|上中下
+	Last Modify:	guojunhui
 */
 
-.L-ui-wraper,
+.Hui-wraper,
 .wp {
 	margin-left: auto;
 	margin-right: auto;
@@ -1799,7 +1801,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 @media (max-width: 1000px) {
-	.L-ui-wraper,
+	.Hui-wraper,
 	.wp,
 	{
 		width: auto!important;
@@ -1808,7 +1810,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 @media print {
-	.L-ui-wraper {
+	.Hui-wraper {
 		width: auto
 	}
 }
@@ -3108,7 +3110,7 @@ ol.inline>li {
 	.list-view>.item .date {
 		display: none
 	}
-	.list-view>.item .L-ui-iconfont {
+	.list-view>.item .Hui-iconfont {
 		background-size: 9px auto;
 		margin-top: -7px;
 		position: absolute;
@@ -6502,67 +6504,67 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /*3.8 效果
 	Name:			style_animation
-	Example:		<input class="btn L-ui-animation" val="淡入" type="button" data-tra="L-ui-fadein" />
+	Example:		<input class="btn hui-animation" val="淡入" type="button" data-tra="hui-fadein" />
 */
 
 
 /* duang 加特效 */
 
-.L-ui-bounce,
-.L-ui-flip,
-.L-ui-flash,
-.L-ui-shake,
-.L-ui-swing,
-.L-ui-wobble,
-.L-ui-ring {
+.hui-bounce,
+.hui-flip,
+.hui-flash,
+.hui-shake,
+.hui-swing,
+.hui-wobble,
+.hui-ring {
 	-webkit-animation: 1s ease;
 	-moz-animation: 1s ease;
 	-ms-animation: 1s ease;
 	animation: 1s ease
 }
 
-.L-ui-fadein,
-.L-ui-fadeinT,
-.L-ui-fadeinR,
-.L-ui-fadeinB,
-.L-ui-fadeinL,
-.L-ui-bouncein,
-.L-ui-bounceinT,
-.L-ui-bounceinR,
-.L-ui-bounceinB,
-.L-ui-bounceinL,
-.L-ui-rotatein,
-.L-ui-rotateinLT,
-.L-ui-rotateinLB,
-.L-ui-rotateinRT,
-.L-ui-rotateinRB,
-.L-ui-flipin,
-.L-ui-flipinX,
-.L-ui-flipinY {
+.hui-fadein,
+.hui-fadeinT,
+.hui-fadeinR,
+.hui-fadeinB,
+.hui-fadeinL,
+.hui-bouncein,
+.hui-bounceinT,
+.hui-bounceinR,
+.hui-bounceinB,
+.hui-bounceinL,
+.hui-rotatein,
+.hui-rotateinLT,
+.hui-rotateinLB,
+.hui-rotateinRT,
+.hui-rotateinRB,
+.hui-flipin,
+.hui-flipinX,
+.hui-flipinY {
 	-webkit-animation: 1s ease-out backwards;
 	-moz-animation: 1s ease-out backwards;
 	-ms-animation: 1s ease-out backwards;
 	animation: 1s ease-out backwards
 }
 
-.L-ui-fadeout,
-.L-ui-fadeoutT,
-.L-ui-fadeoutR,
-.L-ui-fadeoutB,
-.L-ui-fadeoutL,
-.L-ui-bounceout,
-.L-ui-bounceoutT,
-.L-ui-bounceoutR,
-.L-ui-bounceoutB,
-.L-ui-bounceoutL,
-.L-ui-rotateout,
-.L-ui-rotateoutLT,
-.L-ui-rotateoutLB,
-.L-ui-rotateoutRT,
-.L-ui-rotateoutRB,
-.L-ui-flipout,
-.L-ui-flipoutX,
-.L-ui-flipoutY {
+.hui-fadeout,
+.hui-fadeoutT,
+.hui-fadeoutR,
+.hui-fadeoutB,
+.hui-fadeoutL,
+.hui-bounceout,
+.hui-bounceoutT,
+.hui-bounceoutR,
+.hui-bounceoutB,
+.hui-bounceoutL,
+.hui-rotateout,
+.hui-rotateoutLT,
+.hui-rotateoutLB,
+.hui-rotateoutRT,
+.hui-rotateoutRB,
+.hui-flipout,
+.hui-flipoutX,
+.hui-flipoutY {
 	-webkit-animation: 1s ease-in forwards;
 	-moz-animation: 1s ease-in forwards;
 	-ms-animation: 1s ease-in forwards;
@@ -6572,7 +6574,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡入 */
 
-.L-ui-fadein {
+.hui-fadein {
 	-webkit-animation-name: fadein;
 	-moz-animation-name: fadein;
 	-ms-animation-name: fadein;
@@ -6582,7 +6584,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡入-从上 */
 
-.L-ui-fadeinT {
+.hui-fadeinT {
 	-webkit-animation-name: fadeinT;
 	-moz-animation-name: fadeinT;
 	-ms-animation-name: fadeinT;
@@ -6592,7 +6594,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡入-从右 */
 
-.L-ui-fadeinR {
+.hui-fadeinR {
 	-webkit-animation-name: fadeinR;
 	-moz-animation-name: fadeinR;
 	-ms-animation-name: fadeinR;
@@ -6602,7 +6604,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡入-从下 */
 
-.L-ui-fadeinB {
+.hui-fadeinB {
 	-webkit-animation-name: fadeinB;
 	-moz-animation-name: fadeinB;
 	-ms-animation-name: fadeinB;
@@ -6612,7 +6614,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡入-从左 */
 
-.L-ui-fadeinL {
+.hui-fadeinL {
 	-webkit-animation-name: fadeinL;
 	-moz-animation-name: fadeinL;
 	-ms-animation-name: fadeinL;
@@ -6622,7 +6624,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡出 */
 
-.L-ui-fadeout {
+.hui-fadeout {
 	-webkit-animation-name: fadeout;
 	-moz-animation-name: fadeout;
 	-ms-animation-name: fadeout;
@@ -6632,7 +6634,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡出-向上 */
 
-.L-ui-fadeoutT {
+.hui-fadeoutT {
 	-webkit-animation-name: fadeoutT;
 	-moz-animation-name: fadeoutT;
 	-ms-animation-name: fadeoutT;
@@ -6642,7 +6644,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡出-向右 */
 
-.L-ui-fadeoutR {
+.hui-fadeoutR {
 	-webkit-animation-name: fadeoutR;
 	-moz-animation-name: fadeoutR;
 	-ms-animation-name: fadeoutR;
@@ -6652,7 +6654,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡出-向下 */
 
-.L-ui-fadeoutB {
+.hui-fadeoutB {
 	-webkit-animation-name: fadeoutB;
 	-moz-animation-name: fadeoutB;
 	-ms-animation-name: fadeoutB;
@@ -6662,7 +6664,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 淡出-向左 */
 
-.L-ui-fadeoutL {
+.hui-fadeoutL {
 	-webkit-animation-name: fadeoutL;
 	-moz-animation-name: fadeoutL;
 	-ms-animation-name: fadeoutL;
@@ -6672,7 +6674,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹跳 */
 
-.L-ui-bounce {
+.hui-bounce {
 	-webkit-animation-name: bounce;
 	-moz-animation-name: bounce;
 	-ms-animation-name: bounce;
@@ -6682,7 +6684,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹入 */
 
-.L-ui-bouncein {
+.hui-bouncein {
 	-webkit-animation-name: bouncein;
 	-moz-animation-name: bouncein;
 	-ms-animation-name: bouncein;
@@ -6692,7 +6694,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹入-从上 */
 
-.L-ui-bounceinT {
+.hui-bounceinT {
 	-webkit-animation-name: bounceinT;
 	-moz-animation-name: bounceinT;
 	-ms-animation-name: bounceinT;
@@ -6702,7 +6704,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹入-从右 */
 
-.L-ui-bounceinR {
+.hui-bounceinR {
 	-webkit-animation-name: bounceinR;
 	-moz-animation-name: bounceinR;
 	-ms-animation-name: bounceinR;
@@ -6712,7 +6714,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹入-从下 */
 
-.L-ui-bounceinB {
+.hui-bounceinB {
 	-webkit-animation-name: bounceinB;
 	-moz-animation-name: bounceinB;
 	-ms-animation-name: bounceinB;
@@ -6722,7 +6724,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹入-从左 */
 
-.L-ui-bounceinL {
+.hui-bounceinL {
 	-webkit-animation-name: bounceinL;
 	-moz-animation-name: bounceinL;
 	-ms-animation-name: bounceinL;
@@ -6732,7 +6734,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹出 */
 
-.L-ui-bounceout {
+.hui-bounceout {
 	-webkit-animation-name: bounceout;
 	-moz-animation-name: bounceout;
 	-ms-animation-name: bounceout;
@@ -6742,7 +6744,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹出-向上 */
 
-.L-ui-bounceoutT {
+.hui-bounceoutT {
 	-webkit-animation-name: bounceoutT;
 	-moz-animation-name: bounceoutT;
 	-ms-animation-name: bounceoutT;
@@ -6752,7 +6754,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹出-向右 */
 
-.L-ui-bounceoutR {
+.hui-bounceoutR {
 	-webkit-animation-name: bounceoutR;
 	-moz-animation-name: bounceoutR;
 	-ms-animation-name: bounceoutR;
@@ -6762,7 +6764,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹出-向下 */
 
-.L-ui-bounceoutB {
+.hui-bounceoutB {
 	-webkit-animation-name: bounceoutB;
 	-moz-animation-name: bounceoutB;
 	-ms-animation-name: bounceoutB;
@@ -6772,7 +6774,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 弹出-向左 */
 
-.L-ui-bounceoutL {
+.hui-bounceoutL {
 	-webkit-animation-name: bounceoutL;
 	-moz-animation-name: bounceoutL;
 	-ms-animation-name: bounceoutL;
@@ -6782,7 +6784,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转入 */
 
-.L-ui-rotatein {
+.hui-rotatein {
 	-webkit-animation-name: rotatein;
 	-moz-animation-name: rotatein;
 	-ms-animation-name: rotatein;
@@ -6792,7 +6794,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转入-从左上 */
 
-.L-ui-rotateinLT {
+.hui-rotateinLT {
 	-webkit-animation-name: rotateinLT;
 	-moz-animation-name: rotateinLT;
 	-ms-animation-name: rotateinLT;
@@ -6802,7 +6804,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转入-从左下 */
 
-.L-ui-rotateinLB {
+.hui-rotateinLB {
 	-webkit-animation-name: rotateinLB;
 	-moz-animation-name: rotateinLB;
 	-ms-animation-name: rotateinLB;
@@ -6812,7 +6814,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转入-从右上 */
 
-.L-ui-rotateinRT {
+.hui-rotateinRT {
 	-webkit-animation-name: rotateinRT;
 	-moz-animation-name: rotateinRT;
 	-ms-animation-name: rotateinRT;
@@ -6822,7 +6824,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转入-从右下*/
 
-.L-ui-rotateinRB {
+.hui-rotateinRB {
 	-webkit-animation-name: rotateinRB;
 	-moz-animation-name: rotateinRB;
 	-ms-animation-name: rotateinRB;
@@ -6832,7 +6834,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转出 */
 
-.L-ui-rotateout {
+.hui-rotateout {
 	-webkit-animation-name: rotateout;
 	-moz-animation-name: rotateout;
 	-ms-animation-name: rotateout;
@@ -6842,7 +6844,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转出-向左上 */
 
-.L-ui-rotateoutLT {
+.hui-rotateoutLT {
 	-webkit-animation-name: rotateoutLT;
 	-moz-animation-name: rotateoutLT;
 	-ms-animation-name: rotateoutLT;
@@ -6852,7 +6854,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转出-向左下 */
 
-.L-ui-rotateoutLB {
+.hui-rotateoutLB {
 	-webkit-animation-name: rotateoutLB;
 	-moz-animation-name: rotateoutLB;
 	-ms-animation-name: rotateoutLB;
@@ -6862,7 +6864,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转出-向右上 */
 
-.L-ui-rotateoutRT {
+.hui-rotateoutRT {
 	-webkit-animation-name: rotateoutRT;
 	-moz-animation-name: rotateoutRT;
 	-ms-animation-name: rotateoutRT;
@@ -6872,7 +6874,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 转出-向右下 */
 
-.L-ui-rotateoutRB {
+.hui-rotateoutRB {
 	-webkit-animation-name: rotateoutRB;
 	-moz-animation-name: rotateoutRB;
 	-ms-animation-name: rotateoutRB;
@@ -6882,7 +6884,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 翻转 */
 
-.L-ui-flip {
+.hui-flip {
 	-webkit-animation-name: flip;
 	-moz-animation-name: flip;
 	-ms-animation-name: flip;
@@ -6892,7 +6894,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 翻入-X轴 */
 
-.L-ui-flipinX {
+.hui-flipinX {
 	-webkit-animation-name: flipinX;
 	-moz-animation-name: flipinX;
 	-ms-animation-name: flipinX;
@@ -6902,8 +6904,8 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 翻入-Y轴 */
 
-.L-ui-flipin,
-.L-ui-flipinY {
+.hui-flipin,
+.hui-flipinY {
 	-webkit-animation-name: flipinY;
 	-moz-animation-name: flipinY;
 	-ms-animation-name: flipinY;
@@ -6913,7 +6915,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 翻出-X轴 */
 
-.L-ui-flipoutX {
+.hui-flipoutX {
 	-webkit-animation-name: flipoutX;
 	-moz-animation-name: flipoutX;
 	-ms-animation-name: flipoutX;
@@ -6923,8 +6925,8 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 翻出-Y轴 */
 
-.L-ui-flipout,
-.L-ui-flipoutY {
+.hui-flipout,
+.hui-flipoutY {
 	-webkit-animation-name: flipoutY;
 	-moz-animation-name: flipoutY;
 	-ms-animation-name: flipoutY;
@@ -6934,7 +6936,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 闪烁 */
 
-.L-ui-flash {
+.hui-flash {
 	-webkit-animation-name: flash;
 	-moz-animation-name: flash;
 	-ms-animation-name: flash;
@@ -6944,7 +6946,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 震颤 */
 
-.L-ui-shake {
+.hui-shake {
 	-webkit-animation-name: shake;
 	-moz-animation-name: shake;
 	-ms-animation-name: shake;
@@ -6954,7 +6956,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 摇摆 */
 
-.L-ui-swing {
+.hui-swing {
 	-webkit-animation-name: swing;
 	-moz-animation-name: swing;
 	-ms-animation-name: swing;
@@ -6964,7 +6966,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 摇晃 */
 
-.L-ui-wobble {
+.hui-wobble {
 	-webkit-animation-name: wobble;
 	-moz-animation-name: wobble;
 	-ms-animation-name: wobble;
@@ -6974,7 +6976,7 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 
 /* 震铃 */
 
-.L-ui-ring {
+.hui-ring {
 	-webkit-animation-name: ring;
 	-moz-animation-name: ring;
 	-ms-animation-name: ring;
@@ -9488,17 +9490,17 @@ H-ui采用Font Awesome 3.2.1的整套图标，因为是图标字体，所以可�
 	Name:			mod_nav
 	Example:
 <header class="navbar-wrapper">
-	<nav class="nav navbar-nav nav-collapse" role="navigation" id="L-ui-navbar">
+	<nav class="nav navbar-nav nav-collapse" role="navigation" id="Hui-navbar">
 		<ul class="cl">
 			<li class="current"><a href="/">首页</a></li>
 			<li><a href="#">核心</a></li>
 			<li><a href="#">扩展</a></li>
-			<li class="dropDown dropDown_hover"><a href="#" class="dropDown_A">一级导航 <i class="L-ui-iconfont">&#xe6d5;</i></a>
+			<li class="dropDown dropDown_hover"><a href="#" class="dropDown_A">一级导航 <i class="Hui-iconfont">&#xe6d5;</i></a>
 				<ul class="dropDown-menu menu radius box-shadow">
 					<li><a href="#">二级导航</a></li>
-					<li><a href="#">二级导航<i class="arrow L-ui-iconfont">&#xe6d7;</i></a>
+					<li><a href="#">二级导航<i class="arrow Hui-iconfont">&#xe6d7;</i></a>
 						<ul class="menu">
-							<li><a href="javascript:;">三级菜单<i class="arrow L-ui-iconfont">&#xe6d7;</i></a>
+							<li><a href="javascript:;">三级菜单<i class="arrow Hui-iconfont">&#xe6d7;</i></a>
 								<ul class="menu">
 									<li><a href="javascript:;">四级菜单</a></li>
 									<li><a href="javascript:;">四级菜单</a></li>
@@ -9657,7 +9659,7 @@ a.logo:hover {
 	.navbar-nav>ul>li.dropDown.open>.dropDown-menu {
 		display: none
 	}
-	.navbar-nav>ul>li.dropDown>.dropDown_A>.L-ui-iconfont {
+	.navbar-nav>ul>li.dropDown>.dropDown_A>.Hui-iconfont {
 		display: none
 	}
 	.navbar-nav>ul>li,
@@ -9825,8 +9827,8 @@ a.nav-toggle:hover {
 
 /*交互颜色*/
 
-.L-ui-nav-toggle,
-a.L-ui-nav-toggle {
+.Hui-nav-toggle,
+a.Hui-nav-toggle {
 	position: absolute;
 	top: 0px;
 	right: 15px;
@@ -9837,8 +9839,8 @@ a.L-ui-nav-toggle {
 	color: #fff
 }
 
-.L-ui-nav-toggle:hover,
-a.L-ui-nav-toggle:hover {
+.Hui-nav-toggle:hover,
+a.Hui-nav-toggle:hover {
 	text-decoration: none;
 	color: #fff
 }
@@ -9869,7 +9871,7 @@ a.L-ui-nav-toggle:hover {
 	Example:
 <nav class="breadcrumb">
   <div class="container">
-    <i class="L-ui-iconfont">&#xe67f;</i> <a href="/" class="c-primary">首页</a><span class="c-gray en">&gt;</span><a href="#">组件</a><span class="c-gray en">&gt;</span><span class="c-gray">当前页面</span>
+    <i class="Hui-iconfont">&#xe67f;</i> <a href="/" class="c-primary">首页</a><span class="c-gray en">&gt;</span><a href="#">组件</a><span class="c-gray en">&gt;</span><span class="c-gray">当前页面</span>
   </div>
 </nav>
 */
@@ -9935,7 +9937,7 @@ a.L-ui-nav-toggle:hover {
 /*4.2.4 顶部导航
 	Name:			mod_topnav
 	Sample:
-	<div class="topnav"><div class="cl"><div class="l">您好，欢迎来到L-ui！</div><div class="r"><span class="r_nav">[ <a rel="nofollow" href="javascript:login();">登录</a> ]</span><span class="pipe">|</span><span class="r_nav">[ <a href="javascript:register();" rel="nofollow">注册</a> ]</span><span class="pipe">|</span><span class="r_nav"><a title="收藏" href="javascript:addFavorite();">收藏本站</a></span><span class="pipe">|</span><span class="r_nav"><a href="javascript:void(0)" onclick="setHome(this);" title="设为首页">设为首页</a></span></div></div></div>
+	<div class="topnav"><div class="cl"><div class="l">您好，欢迎来到Hui！</div><div class="r"><span class="r_nav">[ <a rel="nofollow" href="javascript:login();">登录</a> ]</span><span class="pipe">|</span><span class="r_nav">[ <a href="javascript:register();" rel="nofollow">注册</a> ]</span><span class="pipe">|</span><span class="r_nav"><a title="收藏" href="javascript:addFavorite();">收藏本站</a></span><span class="pipe">|</span><span class="r_nav"><a href="javascript:void(0)" onclick="setHome(this);" title="设为首页">设为首页</a></span></div></div></div>
 
 */
 
@@ -10733,7 +10735,7 @@ a.L-ui-nav-toggle:hover {
 /*4.5 选项卡
 	Name:			module_slider
 	Sample:
-	<div id="tab_demo" class="L-uiTab">
+	<div id="tab_demo" class="HuiTab">
       <div class="tabBar cl"><span>选项卡一</span><span>选项卡二</span><span>自适应宽度</span></div>
       <div class="tabCon">内容一</div>
       <div class="tabCon">内容二</div>
@@ -10907,10 +10909,10 @@ a.badge:focus {
 
 
 /*4.8 警告
-	Name:			mod_L-ui-alert
+	Name:			mod_Hui-alert
 	Example:
-<div class="L-uialert L-uialert-success/L-uialert-danger/L-uialert-error/L-uialert-info/L-uialert-block">
-	<i class="L-ui-iconfont">&#xe6a6;</i>
+<div class="Huialert Huialert-success/Huialert-danger/Huialert-error/Huialert-info/Huialert-block">
+	<i class="Hui-iconfont">&#xe6a6;</i>
 	警告内容
 	<ul>
 		<li>……</li>
@@ -10919,7 +10921,7 @@ a.badge:focus {
 	Explain:		警告,使用警告框jQuery插件
 */
 
-.L-uialert {
+.Huialert {
 	position: relative;
 	padding: 8px 35px 8px 14px;
 	margin-bottom: 20px;
@@ -10928,16 +10930,16 @@ a.badge:focus {
 	border: 1px solid #fbeed5
 }
 
-.L-uialert,
-.L-uialert h4 {
+.Huialert,
+.Huialert h4 {
 	color: #c09853
 }
 
-.L-uialert h4 {
+.Huialert h4 {
 	margin: 0
 }
 
-.L-uialert .L-ui-iconfont {
+.Huialert .Hui-iconfont {
 	position: absolute;
 	top: 9px;
 	right: 10px;
@@ -10948,62 +10950,62 @@ a.badge:focus {
 	_color: #666
 }
 
-.L-uialert .L-ui-iconfont.hover {
+.Huialert .Hui-iconfont.hover {
 	color: #000;
 	opacity: 0.8
 }
 
-.L-uialert-success {
+.Huialert-success {
 	color: #468847;
 	background-color: #dff0d8;
 	border-color: #d6e9c6
 }
 
-.L-uialert-success h4 {
+.Huialert-success h4 {
 	color: #468847
 }
 
-.L-uialert-danger {
+.Huialert-danger {
 	color: #b94a48;
 	background-color: #f2dede;
 	border-color: #eed3d7
 }
 
-.L-uialert-danger h4 {
+.Huialert-danger h4 {
 	color: #b94a48
 }
 
-.L-uialert-error {
+.Huialert-error {
 	color: #fff;
 	background-color: #f37b1d;
 	border-color: #e56c0c
 }
 
-.L-uialert-error h4 {
+.Huialert-error h4 {
 	color: #fff
 }
 
-.L-uialert-info {
+.Huialert-info {
 	color: #31708f;
 	background-color: #d9edf7;
 	border-color: #bce8f1
 }
 
-.L-uialert-info h4 {
+.Huialert-info h4 {
 	color: #31708f
 }
 
-.L-uialert-block {
+.Huialert-block {
 	padding-top: 14px;
 	padding-bottom: 14px
 }
 
-.L-uialert-block>p,
-.L-uialert-block>ul {
+.Huialert-block>p,
+.Huialert-block>ul {
 	margin-bottom: 0
 }
 
-.L-uialert-block p+p {
+.Huialert-block p+p {
 	margin-top: 5px
 }
 
@@ -11440,12 +11442,12 @@ a.modal-close:hover {
 /*4.12.2 意见反馈
 		Name:			mod_feedback
 		Level:			Global
-		Example:		<a href="javascript:;" class="tools-right feedback L-ui-iconfont" title="意见反馈" onClick="feedback()">&#xe70c;</a>
+		Example:		<a href="javascript:;" class="tools-right feedback Hui-iconfont" title="意见反馈" onClick="feedback()">&#xe70c;</a>
 		Explain:		意见反馈
 	<div id="modal-feedback" class="modal hide fade">
 		<div class="modal-header">
 			 <h3>意见反馈</h3>
-			 <a class="L-ui-iconfont close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">&#xe6a6;</a>
+			 <a class="Hui-iconfont close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">&#xe6a6;</a>
 		</div>
 		<div class="modal-body">
 			<div>
@@ -11454,7 +11456,7 @@ a.modal-close:hover {
 				<label class="mr-20"><input type="radio" class="radio" value="3" name="radio-feedback" id="feedback-3"> 好点子</label>
 			</div>
 			<div class="formControls mt-20">
-				<textarea class="textarea valid" onKeyUp="$.L-uitextarealength(this,500)" placeholder="吐槽点什么...最少输入10个字符"></textarea>
+				<textarea class="textarea valid" onKeyUp="$.Huitextarealength(this,500)" placeholder="吐槽点什么...最少输入10个字符"></textarea>
 				<p class="textarea-numberbar"><em class="textarea-length">0</em>/500</p>
 			</div>
 		</div>
@@ -11479,13 +11481,13 @@ a.modal-close:hover {
 
 /*4.13.1 百度分享*/
 
-.bdsharebuttonbox.L-ui-share a.bds_more,
-.bdsharebuttonbox.L-ui-share a.bds_weixin,
-.bdsharebuttonbox.L-ui-share a.bds_qzone,
-.bdsharebuttonbox.L-ui-share a.bds_sqq,
-.bdsharebuttonbox.L-ui-share a.bds_tsina,
-.bdsharebuttonbox.L-ui-share a.bds_tqq,
-.bdsharebuttonbox.L-ui-share a.bds_douban {
+.bdsharebuttonbox.Hui-share a.bds_more,
+.bdsharebuttonbox.Hui-share a.bds_weixin,
+.bdsharebuttonbox.Hui-share a.bds_qzone,
+.bdsharebuttonbox.Hui-share a.bds_sqq,
+.bdsharebuttonbox.Hui-share a.bds_tsina,
+.bdsharebuttonbox.Hui-share a.bds_tqq,
+.bdsharebuttonbox.Hui-share a.bds_douban {
 	display: inline-block;
 	background: none;
 	padding-left: 0;
@@ -11496,11 +11498,11 @@ a.modal-close:hover {
 	line-height: auto
 }
 
-.bdsharebuttonbox.L-ui-share a:hover {
+.bdsharebuttonbox.Hui-share a:hover {
 	text-decoration: none
 }
 
-.bdsharebuttonbox.L-ui-share .share-text {
+.bdsharebuttonbox.Hui-share .share-text {
 	display: inline-block;
 	margin-right: 6px;
 	color: #999;
@@ -11508,37 +11510,37 @@ a.modal-close:hover {
 	float: left
 }
 
-.bdsharebuttonbox.bdshare-button-style0-16.L-ui-share a,
-.bdsharebuttonbox.bdshare-button-style0-16.L-ui-share .share-text,
-.bdsharebuttonbox.bdshare-button-style0-16.L-ui-share .L-ui-iconfont {
+.bdsharebuttonbox.bdshare-button-style0-16.Hui-share a,
+.bdsharebuttonbox.bdshare-button-style0-16.Hui-share .share-text,
+.bdsharebuttonbox.bdshare-button-style0-16.Hui-share .Hui-iconfont {
 	line-height: 16px
 }
 
-.bdsharebuttonbox.bdshare-button-style0-16.L-ui-share .share-text,
-.bdsharebuttonbox.bdshare-button-style0-16.L-ui-share .L-ui-iconfont {
+.bdsharebuttonbox.bdshare-button-style0-16.Hui-share .share-text,
+.bdsharebuttonbox.bdshare-button-style0-16.Hui-share .Hui-iconfont {
 	font-size: 16px
 }
 
-.bdsharebuttonbox.bdshare-button-style0-24.L-ui-share a,
-.bdsharebuttonbox.bdshare-button-style0-24.L-ui-share .share-text,
-.bdsharebuttonbox.bdshare-button-style0-24.L-ui-share .L-ui-iconfont {
+.bdsharebuttonbox.bdshare-button-style0-24.Hui-share a,
+.bdsharebuttonbox.bdshare-button-style0-24.Hui-share .share-text,
+.bdsharebuttonbox.bdshare-button-style0-24.Hui-share .Hui-iconfont {
 	line-height: 24px
 }
 
-.bdsharebuttonbox.bdshare-button-style0-24.L-ui-share .share-text,
-.bdsharebuttonbox.bdshare-button-style0-24.L-ui-share .L-ui-iconfont {
+.bdsharebuttonbox.bdshare-button-style0-24.Hui-share .share-text,
+.bdsharebuttonbox.bdshare-button-style0-24.Hui-share .Hui-iconfont {
 	font-size: 24px
 }
 
 
 /*4.13.2 jiathis分享*/
 
-.L-ui-share.jiathis_style_24x24 .jtico {
+.Hui-share.jiathis_style_24x24 .jtico {
 	background: none;
 	padding-left: 0!important
 }
 
-.L-ui-share.jiathis_style_24x24 .jiathis_separator {
+.Hui-share.jiathis_style_24x24 .jiathis_separator {
 	margin-left: 0;
 	margin-right: 6px
 }
@@ -11873,38 +11875,38 @@ a.modal-close:hover {
 
 
 /*4.19.1 标签输入效果
-		Name:			mod_L-ui-tags
+		Name:			mod_Hui-tags
 		Sample:
-		<div class="L-ui-tags">
-		  <div class="L-ui-tags-editor cl"><i class="L-ui-tags-icon"></i>
-			<span class="L-ui-tags-token">L-ui前端框架</span>
-			<span class="L-ui-tags-token">CSS3</span>
-			<span class="L-ui-tags-token">HTML5</span>
-			<div class="L-ui-tags-iptwrap"><input type="text" class="L-ui-tags-input" maxlength="20" value=""><label class="L-ui-tags-label">添加相关标签，用空格或回车分隔</label></div>
+		<div class="Hui-tags">
+		  <div class="Hui-tags-editor cl"><i class="Hui-tags-icon"></i>
+			<span class="Hui-tags-token">Hui前端框架</span>
+			<span class="Hui-tags-token">CSS3</span>
+			<span class="Hui-tags-token">HTML5</span>
+			<div class="Hui-tags-iptwrap"><input type="text" class="Hui-tags-input" maxlength="20" value=""><label class="Hui-tags-label">添加相关标签，用空格或回车分隔</label></div>
 		  </div>
-		  <div class="L-ui-tags-list">
-			<div class="L-ui-notag">暂无常用标签</div>
-			<div class="L-ui-tags-has"><span>前端框架</span> <span>前端开发</span> <span>H-ui</span></div>
+		  <div class="Hui-tags-list">
+			<div class="Hui-notag">暂无常用标签</div>
+			<div class="Hui-tags-has"><span>前端框架</span> <span>前端开发</span> <span>H-ui</span></div>
 		  </div>
-		  <input type="hidden" class="L-ui-tags-val" name="" value="">
+		  <input type="hidden" class="Hui-tags-val" name="" value="">
 		</div>
 	*/
 
-.L-ui-tags,
-.L-uitags-wraper {
+.Hui-tags,
+.Huitags-wraper {
 	border: solid 1px #dedede;
 	padding: 0 10px
 }
 
-.L-ui-tags-editor,
-.L-uitags-editor {
+.Hui-tags-editor,
+.Huitags-editor {
 	position: relative;
 	padding: 10px 0 10px 24px;
 	min-height: 20px
 }
 
-.L-ui-tags-editor .L-ui-tags-icon,
-.L-uitags-editor .L-uitags-icon {
+.Hui-tags-editor .Hui-tags-icon,
+.Huitags-editor .Huitags-icon {
 	position: absolute;
 	left: 0;
 	top: 11px;
@@ -11912,8 +11914,8 @@ a.modal-close:hover {
 	color: #666
 }
 
-.L-ui-tags-token,
-.L-uitags-token {
+.Hui-tags-token,
+.Huitags-token {
 	color: #aaa;
 	float: left;
 	font-size: 12px;
@@ -11925,24 +11927,24 @@ a.modal-close:hover {
 	cursor: pointer
 }
 
-.L-ui-tags-token:before,
-.L-uitags-token:before {
+.Hui-tags-token:before,
+.Huitags-token:before {
 	content: "#"
 }
 
-.L-ui-tags-token:hover,
-.L-uitags-token:hover {
+.Hui-tags-token:hover,
+.Huitags-token:hover {
 	text-decoration: line-through
 }
 
-.L-ui-tags-iptwrap {
+.Hui-tags-iptwrap {
 	position: relative;
 	float: left
 }
 
-.L-uitags-input-wraper {}
+.Huitags-input-wraper {}
 
-.L-ui-tags-input {
+.Hui-tags-input {
 	position: relative;
 	height: 20px;
 	min-width: 60px;
@@ -11951,15 +11953,15 @@ a.modal-close:hover {
 	line-height: 20px;
 	color: #333;
 	z-index: 2;
-	background: url(../images/L-ui-tags/empty.png) repeat scroll 0 0;
+	background: url(../images/Hui-tags/empty.png) repeat scroll 0 0;
 	display: inline-block;
 	width: 100%
 }
 
-.L-uitags-input {}
+.Huitags-input {}
 
-.L-ui-tags-label,
-.L-uitags-label {
+.Hui-tags-label,
+.Huitags-label {
 	position: absolute;
 	top: 0;
 	left: 2px;
@@ -11972,18 +11974,18 @@ a.modal-close:hover {
 	color: #ccc
 }
 
-.L-ui-tags-list,
-.L-uitags-list {
+.Hui-tags-list,
+.Huitags-list {
 	padding: 0 0 10px 0;
 }
 
-.L-ui-notag,
-.L-uitags-notag {
+.Hui-notag,
+.Huitags-notag {
 	font-size: 12px
 }
 
-.L-ui-tags-has span,
-.L-uitags-has span {
+.Hui-tags-has span,
+.Huitags-has span {
 	cursor: pointer;
 	font-size: 12px;
 	white-space: nowrap;
@@ -12073,19 +12075,19 @@ a.modal-close:hover {
 
 
 /*4.20 折叠
-	Name:			mod_L-uifold
+	Name:			mod_Huifold
 	Sample:
-	<ul id="" class="L-uifold">
+	<ul id="" class="Huifold">
 	  <li class="item"><h4>标题<b>+</b></h4><div class="info">内容 </div></li>
 	  ……
 	</ul>
 */
 
-.L-uifold .item {
+.Huifold .item {
 	position: relative
 }
 
-.L-uifold .item h4 {
+.Huifold .item h4 {
 	margin: 0;
 	font-weight: bold;
 	position: relative;
@@ -12098,7 +12100,7 @@ a.modal-close:hover {
 	padding-right: 30px
 }
 
-.L-uifold .item h4 b {
+.Huifold .item h4 b {
 	position: absolute;
 	display: block;
 	cursor: pointer;
@@ -12110,7 +12112,7 @@ a.modal-close:hover {
 	color: #666
 }
 
-.L-uifold .item .info {
+.Huifold .item .info {
 	display: none;
 	padding: 10px
 }
@@ -12302,7 +12304,7 @@ a.modal-close:hover {
 <footer class="footer mt-20">
   <div class="container">
     <nav class="footer-nav">
-      <a target="_blank" href="/aboutL-ui.html">关于H-ui</a>
+      <a target="_blank" href="/aboutHui.html">关于H-ui</a>
       <span class="pipe">|</span>
       <a target="_blank" href="/copyright.html">软件著作权</a>
       <span class="pipe">|</span>

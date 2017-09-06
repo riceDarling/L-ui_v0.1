@@ -30,7 +30,7 @@ function Huiasidedisplay(){
 }
 /*获取皮肤cookie*/
 function getskincookie(){
-	var v = $.cookie("L-uiskin");
+	var v = $.cookie("Huiskin");
 	var hrefStr=$("#skin").attr("href");
 	if(v==null||v==""){
 		v="default";
@@ -301,7 +301,7 @@ $(function(){
 	/*换肤*/
 	$("#Hui-skin .dropDown-menu a").click(function(){
 		var v = $(this).attr("data-val");
-		$.cookie("L-uiskin", v);
+		$.cookie("Huiskin", v);
 		var hrefStr=$("#skin").attr("href");
 		var hrefRes=hrefStr.substring(0,hrefStr.lastIndexOf('skin/'))+'skin/'+v+'/skin.css';
 		$(window.frames.document).contents().find("#skin").attr("href",hrefRes);

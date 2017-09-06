@@ -36,7 +36,7 @@ h4 {
 
 /*页面框架*/
 
-.L-ui-header {
+.Hui-header {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -46,7 +46,7 @@ h4 {
 	padding: 0 15px
 }
 
-.L-ui-aside {
+.Hui-aside {
 	position: absolute;
 	top: 44px;
 	bottom: 0;
@@ -60,7 +60,7 @@ h4 {
 	border-right: 1px solid #e5e5e5
 }
 
-.L-ui-article-box {
+.Hui-article-box {
 	position: absolute;
 	top: 44px;
 	right: 0;
@@ -71,7 +71,7 @@ h4 {
 	background-color: #fff
 }
 
-.L-ui-article {
+.Hui-article {
 	position: absolute;
 	top: 34px;
 	bottom: 0;
@@ -81,12 +81,12 @@ h4 {
 	z-index: 1
 }
 
-.L-ui-container {
+.Hui-container {
 	padding: 45px 0 0
 }
 
-.L-ui-aside,
-.L-ui-article-box,
+.Hui-aside,
+.Hui-article-box,
 .dislpayArrow {
 	-moz-transition: all 0.2s ease 0s;
 	-webkit-transition: all 0.2s ease 0s;
@@ -95,13 +95,13 @@ h4 {
 	transition: all 0.2s ease 0s
 }
 
-.big-page .L-ui-article-box,
+.big-page .Hui-article-box,
 .big-page .dislpayArrow,
 .big-page .breadcrumb {
 	left: 0px
 }
 
-.big-page .L-ui-aside {
+.big-page .Hui-aside {
 	left: -200px
 }
 
@@ -124,41 +124,41 @@ h4 {
 
 /*导航*/
 
-#L-ui-nav>ul>li {
+#Hui-nav>ul>li {
 	font-weight: normal
 }
 
 @media (max-width: 767px) {
-	#L-ui-nav {
+	#Hui-nav {
 		display: block;
 		top: 0;
 		left: 65px;
 		right: 65px
 	}
-	#L-ui-nav>ul {
+	#Hui-nav>ul {
 		width: 100%
 	}
-	#L-ui-nav>ul>li {
+	#Hui-nav>ul>li {
 		width: 24%;
 		text-align: center;
 	}
-	#L-ui-nav>ul>li a {
+	#Hui-nav>ul>li a {
 		text-align: center;
 		padding: 0
 	}
 }
 
-#L-ui-userbar {
+#Hui-userbar {
 	right: 20px;
 	position: absolute;
 	top: 0;
 }
 
-#L-ui-userbar>ul>li>a {
+#Hui-userbar>ul>li>a {
 	padding: 0 10px
 }
 
-#L-ui-msg .badge {
+#Hui-msg .badge {
 	position: absolute;
 	left: 19px;
 	top: 4px;
@@ -170,11 +170,11 @@ h4 {
 
 /*左侧菜单*/
 
-.L-ui-aside .menu_dropdown dl {
+.Hui-aside .menu_dropdown dl {
 	margin-bottom: 0
 }
 
-.L-ui-aside .menu_dropdown dt {
+.Hui-aside .menu_dropdown dt {
 	display: block;
 	line-height: 35px;
 	padding-left: 15px;
@@ -184,7 +184,7 @@ h4 {
 	font-weight: normal
 }
 
-.L-ui-aside .menu_dropdown dt .menu_dropdown-arrow {
+.Hui-aside .menu_dropdown dt .menu_dropdown-arrow {
 	position: absolute;
 	overflow: hidden;
 	top: 10px;
@@ -193,60 +193,60 @@ h4 {
 	transition-property: all
 }
 
-.L-ui-aside .menu_dropdown dd {
+.Hui-aside .menu_dropdown dd {
 	display: none
 }
 
-.L-ui-aside .menu_dropdown dt.selected .menu_dropdown-arrow {
+.Hui-aside .menu_dropdown dt.selected .menu_dropdown-arrow {
 	transform: rotate(180deg)
 }
 
-.L-ui-aside .menu_dropdown dd.selected {
+.Hui-aside .menu_dropdown dd.selected {
 	display: block;
 	margin-left: 0px
 }
 
-.L-ui-aside .menu_dropdown ul {
+.Hui-aside .menu_dropdown ul {
 	padding: 0px
 }
 
-.L-ui-aside .menu_dropdown li {
+.Hui-aside .menu_dropdown li {
 	line-height: 35px;
 	overflow: hidden;
 	zoom: 1
 }
 
-.L-ui-aside .menu_dropdown li a {
+.Hui-aside .menu_dropdown li a {
 	padding-left: 15px;
 	display: block;
 	font-weight: bold;
 	margin: 0
 }
 
-.L-ui-aside .menu_dropdown li a i {
+.Hui-aside .menu_dropdown li a i {
 	font-weight: normal
 }
 
-.L-ui-aside .menu_dropdown dd ul {
+.Hui-aside .menu_dropdown dd ul {
 	padding: 3px 8px
 }
 
-.L-ui-aside .menu_dropdown dd li {
+.Hui-aside .menu_dropdown dd li {
 	line-height: 32px
 }
 
-.L-ui-aside .menu_dropdown dd li a {
+.Hui-aside .menu_dropdown dd li a {
 	line-height: 32px;
 	padding-left: 26px;
 	border-bottom: none;
 	font-weight: normal
 }
 
-.L-ui-aside .menu_dropdown li a:hover {
+.Hui-aside .menu_dropdown li a:hover {
 	text-decoration: none
 }
 
-.L-ui-aside .menu_dropdown li.current a,
+.Hui-aside .menu_dropdown li.current a,
 .menu_dropdown li.current a:hover {
 	background-color: rgba(255, 255, 255, 0.2)
 }
@@ -290,19 +290,19 @@ h4 {
 
 /*选项卡导航*/
 
-.L-ui-tabNav-wp {
+.Hui-tabNav-wp {
 	position: relative;
 	height: 35px;
 	overflow: hidden
 }
 
-.L-ui-tabNav,
-.L-ui-tabNav .acrossTab li,
-.L-ui-tabNav .acrossTab li em {
+.Hui-tabNav,
+.Hui-tabNav .acrossTab li,
+.Hui-tabNav .acrossTab li em {
 	background-image: url(../images/acrossTab/acrossTab-2.png)
 }
 
-.L-ui-tabNav {
+.Hui-tabNav {
 	height: 35px;
 	padding-right: 75px;
 	overflow: hidden;
@@ -312,7 +312,7 @@ h4 {
 	background-position: 0 -175px;
 }
 
-.L-ui-tabNav .acrossTab {
+.Hui-tabNav .acrossTab {
 	position: absolute;
 	height: 26px;
 	line-height: 26px;
@@ -322,12 +322,12 @@ h4 {
 	padding-top: 0
 }
 
-.L-ui-tabNav .acrossTab li {
+.Hui-tabNav .acrossTab li {
 	height: 26px;
 	line-height: 26px;
 }
 
-.L-ui-tabNav .acrossTab li em {
+.Hui-tabNav .acrossTab li em {
 	right: -16px;
 	height: 26px;
 	width: 16px
@@ -353,7 +353,7 @@ h4 {
 	width: 100%
 }
 
-.L-ui-tabNav-more {
+.Hui-tabNav-more {
 	position: absolute;
 	right: 0px;
 	width: 70px;
@@ -385,7 +385,7 @@ h4 {
 /*横向手机 竖向平板*/
 
 @media (max-width: 767px) {
-	.L-ui-aside {
+	.Hui-aside {
 		display: none;
 		float: none;
 		width: 100%;
@@ -394,7 +394,7 @@ h4 {
 		padding-top: 0;
 		bottom: auto
 	}
-	.big-page .L-ui-aside {
+	.big-page .Hui-aside {
 		left: 0!important
 	}
 	.menu_dropdown dt {
@@ -405,27 +405,27 @@ h4 {
 	.menu_dropdown dd li a {
 		line-height: 44px
 	}
-	.L-ui-tabNav {
+	.Hui-tabNav {
 		position: fixed;
 		z-index: 998
 	}
-	.L-ui-article {
+	.Hui-article {
 		top: 44px
 	}
-	.L-ui-article-box {
+	.Hui-article-box {
 		position: static;
 		left: 0
 	}
-	.L-ui-article-box .pd-20 {
+	.Hui-article-box .pd-20 {
 		padding: 15px
 	}
-	.L-ui-article {
+	.Hui-article {
 		left: 0
 	}
-	.L-ui-container .bk-gray {
+	.Hui-container .bk-gray {
 		border: none
 	}
-	.L-ui-container .pd-10 {
+	.Hui-container .pd-10 {
 		padding: 0
 	}
 }
