@@ -306,7 +306,9 @@ input[type="search"]::-webkit-search-decoration {
 .clearfix {
 	zoom: 1
 }
-
+a{
+	text-decoration: none;
+}
 
 /*2.1 栅格系统
 	Name:			style_container
